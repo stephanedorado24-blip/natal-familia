@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natal Família F&D 🎄</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <p>“O Natal fica ainda mais especial quando estamos juntos! ❤️🎄 <br>
+        Sua presença é o melhor presente para nossa família. <br>
+        Confirme sua presença e venha compartilhar conosco esse momento de amor, <br>
+        união e alegria!”
+    </p>
+
+    <h1>Natal da Família Buscapé 🎄</h1>
+    <h2>Confirme sua presença!</h2>
+
+    <form>
+        <label for="responsavel">Nome do responsável:</label>
+        <input class="responsavel" type="text" id="responsavel" name="responsavel"
+            placeholder="Digite o nome do responsável" required>
+
+        <br><br>
+
+        <label for="quantidade">Quantas pessoas da sua casa irão?</label>
+        <br>
+        <input class="quantidade" type="number" id="quantidade" name="quantidade" min="1" max="30" value="1" required>
+
+        <br><br>
+
+        <button type="button" class="botao-whatsapp" onclick="confirmarPresenca()">
+            🎅🏻 Confirmar presença 🎄
+        </button>
+    </form>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
